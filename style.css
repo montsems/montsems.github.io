@@ -6,3 +6,7 @@ ul{
 	color:navy;
 	background-color: gold;
 }
+
+.frase{
+	font-variant: small-caps;
+}
