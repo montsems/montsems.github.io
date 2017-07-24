@@ -11,7 +11,14 @@ ul{
 	font-variant: small-caps;
 }
 
+nav{
+	background-color: fuchsia;
+}
+
 nav li{
 	list-style-type: none;
 	display: inline-block;
+	text-decoration: none;
+	margin: 25px;
+	background-color: aqua
 }
