@@ -10,3 +10,8 @@ ul{
 .frase{
 	font-variant: small-caps;
 }
+
+nav li{
+	list-style-type: none;
+	display: inline-block;
+}
