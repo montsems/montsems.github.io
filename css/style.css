@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 
@@ -16,7 +17,6 @@
 
 
 body{
-	width: 100%;
 	font-size: 120%;
 	background: linear-gradient(90deg,rgba(47, 239, 240,.3), rgba(255, 241, 0,.3));
 	font-family: "HappyMonkey-Regular", cursive;                     
@@ -24,48 +24,95 @@ body{
 }
 
 .cabecera{
-	margin: 0 auto;
-	width: 100%;
+	margin: 2em auto;
+	width: 95%;
+	min-height: 120px;
+	position: relative;
 }
 
-/*revisar position*/
-
-.titulo{
-	width: 58%;
-	position: left;
-	font-family: launica;
-	text-align: center;
-	min-height: 150px;
-	
-}
-
-	.titulo h1{
-		text-align: center;
-		font-size: 3em;
-		padding: 6px;
-	}
-
-.principal{
-	margin: 6px;
-	width: 40%;
-	position: right;
-	min-height: 150px;
-}
-
-	.principal h2{
+	h1{
 		width: 59%;
-		position: right;
+		border: outset 3px #241005;
+		border-radius: 20px;
+		box-shadow: 3px 3px 6px #333;
+		font-family: "launica", cursive;
+		font-size: 2.5em;
+		padding: 6px;
+		text-align: center;
 		display: inline-block;
-		padding-top: 20px;
+		position: absolute;
+		right: 0;
+		top: 30px;
 
 	}
 
-	.principal img{
-		width: 35%;
-		position: left;
+	.alterna{
+		position: relative;
+		bottom: 5px
+	}
+
+
+	.principal{
+		margin: 12px 12px 0 12px;
+		width: 40%;
 		display: inline-block;
 	}
 
+		.principal img{
+			border-radius: 30%;
+			border: outset 2px #241005;
+			box-shadow: 3px 3px 6px #333;
+			float: left;
+			margin-right: 16px;
+		}
+
+		.principal h2{
+			padding-top: 24px;
+		}
+
+
+nav{
+	width: 95%;
+	margin: 12px auto;
+	text-align: center;
+		
+}
+
+	nav li{
+		list-style: none;
+		display: inline-block;
+		width: 40%;
+		min-height: 200px;
+				
+	}
+
+		nav li a{
+			text-decoration: none;
+		}
+
+		.galeria{
+			border-radius: 24px;
+			padding: 12px;
+	
+	}
+				
+		.galeria img{
+			min-height: 180px;
+			background-color: rgba(47, 239, 240,.7); 
+			border-radius: 24px;
+			border:outset 2px rgb(255, 241, 0);
+			box-shadow: 6px 6px 6px #333;
+			padding: 12px;
+					
+		}
+
+		.galeria figcaption{
+			text-align: center;
+			
+			position: relative;
+			bottom: -20px;
+		
+		}
 
 
 
