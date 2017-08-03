@@ -38,33 +38,45 @@ body{
 
 }
 
+@keyframes alterna{
+	0{bottom:100px}
+	25%{bottom:80px}
+	40%{bottom:50px}
+	50%{bottom:30px}
+	60%{bottom:20px}
+	75%{bottom:30px}
+	100%{bottom: 5px}
+}
+
 	h1{
-		width: 59%;
+		width: 54%;
+		display: inline-block;
 		border: outset 2px #241005;
 		border-radius: 20px;
 		box-shadow: 12px 12px 12px #333;
 		font-family: "launica", cursive;
-		font-size: 250%;
+		font-size: 2em;
 		padding: 6px;
 		text-align: center;
-		display: inline-block;
-		top: 25px;
-		position: absolute;
-		right: 0;
+		vertical-align: middle;
+	
 	}
 
 		.alterna{
 				position: relative;
 				bottom: 5px;
-				animat
+				animation-name: alterna;
+				animation-duration: 4s;
+				
 			}
 
 	
 
 	.principal{
 		margin: 12px 12px 0 12px;
-		width: 39%;
+		width: 40%;
 		display: inline-block;
+		vertical-align: middle;
 	}
 
 		.principal img{
@@ -136,9 +148,7 @@ nav li a:visited{
 					text-align: center;
 					position:relative;
 					bottom:-40px;
-					
-				}
-
+				}				
 
 a#gototop{
 	position: fixed;
