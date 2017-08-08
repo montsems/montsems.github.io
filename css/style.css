@@ -4,7 +4,6 @@
 	box-sizing: border-box;
 }
 
-
 @font-face{
 	font-family:"HappyMonkey-Regular";
 	src:url(../fonts/HappyMonkey-Regular.ttf);
@@ -14,7 +13,6 @@
 	font-family:"launica";
 	src:url(../fonts/launica.ttf);
 }
-
 
 body{
 	background: linear-gradient(90deg,rgba(47, 239, 240,.3), rgba(255, 241, 0,.3));
@@ -27,7 +25,6 @@ body{
 	background-size: 18%;
 	background-position: bottom left;
 	background-repeat:no-repeat;
-	
 }
 
 .cabecera{
@@ -35,9 +32,7 @@ body{
 	width: 90%;
 	min-height: 120px;
 	position: relative;
-
 }
-
 
 @keyframes alterna{
 	0{bottom:80px}
@@ -46,9 +41,6 @@ body{
 	75%{bottom:-15px}
 	100%{bottom:5px}
 }
-
-
-
 
 	h1{
 		width: 49%;
@@ -69,9 +61,9 @@ body{
 				animation-name: alterna;
 				animation-duration: 3s;
 				animation-timing-function:linear;
+				animation-iteration-count: 2;
+				animation-direction: reverse;
 			}
-
-	
 
 	.principal{
 		width: 50%;
@@ -86,8 +78,7 @@ body{
 			box-shadow: 8px 8px 8px #333;
 			float: left;
 			margin-right: 1em;
-		
-	
+
 		}
 
 		.principal h2{
@@ -95,19 +86,16 @@ body{
 			font-size: 35px;
 			margin-top: .4em;
 			font-weight: bolder;
-			
 		}
 
-
-
-nav{
+.central{
 	width: 90%;
 	margin: 12px auto;
 	text-align: center;
 		
 }
 
-	nav li{
+	.central li{
 		list-style: none;
 		display: inline-block;
 		width: 28%;
@@ -115,15 +103,15 @@ nav{
 				
 	}
 
-		nav li a{
+		.central li a{
 			text-decoration: none;
 		}
 
-nav li a:link{
+.central li a:link{
 	color:#333;
 }
 
-nav li a:visited{
+.central li a:visited{
 	color:#333;
 }
 
@@ -156,8 +144,40 @@ nav li a:visited{
 					text-align: center;
 					position:relative;
 					margin-top: 3em;
-					font-size: 1.5em;
+					font-size: 1.3em;
 				}				
+
+.lateral{
+	width: 80px;
+	position: fixed;
+	top:150px;
+	right: 0;
+}
+
+.lateral li{
+	list-style: none;
+}
+
+.lateral ul a{
+	background-color: rgba(157, 34, 186,1);
+	color: #fff;
+	margin: 0 0 .5em;
+	padding: .5em;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	border-radius: 15px;
+}
+
+.lateral a:hover{
+	background-color: rgba(157, 34, 186,.3);
+}
+
+.lateral i{
+	font-size: 40px;
+}
+
 
 a#gototop{
 	position: fixed;
