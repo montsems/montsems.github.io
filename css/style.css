@@ -194,7 +194,10 @@ footer{
 }
 
 
-@media (max-width:740px){
+@media (max-width:719px){
+	.cabecera{
+		margin-top: 3em;
+	}
 	.cabecera h1{
 		width: 100%;
 		margin-top: 1em;
@@ -215,7 +218,7 @@ footer{
 	}
 	
 	.lateral ul li{
-		display: inline;
+		display:inline-flex;
 		
 	}
 
