@@ -97,9 +97,9 @@ body{
 
 	.central li{
 		list-style: none;
-		display: inline-block;
+		display: block;
 		width: 28%;
-		margin: 1em;
+		margin: 1em auto;
 				
 	}
 
@@ -193,6 +193,18 @@ footer{
 	text-align: center;
 }
 
+@media (max-width:800px){
+	.galeria{
+		max-width: 290px;
+	
+	}
+	
+}
+
+
+
+
+
 @media (max-width:650px){
 	.cabecera h1{
 		width: 100%;
@@ -203,7 +215,5 @@ footer{
 		width: 100%;
 	}
 	
-	nav.central{
-		column-count: 1;
-	}
+	
 }
