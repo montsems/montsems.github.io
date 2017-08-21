@@ -194,7 +194,7 @@ footer{
 }
 
 
-@media (max-width:650px){
+@media (max-width:740px){
 	.cabecera h1{
 		width: 100%;
 		margin-top: 1em;
@@ -204,7 +204,20 @@ footer{
 		width: 100%;
 	}
 	
-
+	.principal h2{
+		text-align: center;
+	}
+	
+	.lateral ul{
+		position: fixed;
+		top: 0;
+		right: 0;
+	}
+	
+	.lateral ul li{
+		display: inline;
+		
+	}
 
 		
 }
