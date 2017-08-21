@@ -211,6 +211,7 @@ footer{
 		text-align: center;
 	}
 	
+	
 	.lateral ul{
 		position: fixed;
 		top: 0;
@@ -219,13 +220,15 @@ footer{
 	
 	.lateral ul li{
 		display:inline-flex;
-		
-	}
-
+			}
 		
 }
 
-
-
-
+@media (max-width:300px){
+.central li{
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+}
 
