@@ -21,6 +21,8 @@ body{
 }
 
 .container{
+	width: 100%;
+	margin: 0 auto;
 	background-image: url(../imagenes/flores.png);
 	background-size: 18%;
 	background-position: bottom left;
@@ -29,7 +31,7 @@ body{
 
 .cabecera{
 	margin: 2em auto;
-	width: 90%;
+	width: 100%;
 	min-height: 120px;
 	position: relative;
 }
@@ -89,7 +91,7 @@ body{
 		}
 
 .central{
-	width: 90%;
+	width: 100%;
 	margin: 12px auto;
 	text-align: center;
 			
@@ -98,7 +100,7 @@ body{
 	.central li{
 		list-style: none;
 		display: inline-block;
-		width: 290px;
+		width: 200px;
 		margin: 1em;
 				
 	}
