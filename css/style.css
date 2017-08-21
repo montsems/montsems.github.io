@@ -192,3 +192,18 @@ footer{
 	width: 90%;
 	text-align: center;
 }
+
+@media (max-width:625px){
+	.cabecera h1{
+		width: 100%;
+		margin-top: 1em;
+	}
+	
+	.cabecera .principal{
+		width: 100%;
+	}
+	
+	nav.central{
+		column-count: 1;
+	}
+}
