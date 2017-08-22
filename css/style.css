@@ -100,7 +100,7 @@ body{
 	.central li{
 		list-style: none;
 		display: inline-block;
-		width: 200px;
+		width: 250px;
 		margin: 1em;
 				
 	}
@@ -123,8 +123,9 @@ body{
 			border-radius: 24px;
 			padding: 12px;
 			box-shadow: 12px 12px 8px #333;
-			min-height: 200px;
+			min-height: 300px;
 			margin-bottom: 2em;
+			vertical-align: middle;
 			}
 
 				.galeria:hover{
